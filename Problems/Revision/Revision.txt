@@ -1,1 +1,5 @@
+After Short Span :
 1) 3108. Minimum Cost Walk in Weighted Graph
+2) 2140. Solving Questions With Brainpower
+
+After Long Span:
