@@ -2,5 +2,6 @@ After Short Span :
 1) 3108. Minimum Cost Walk in Weighted Graph
 2) 2140. Solving Questions With Brainpower
 3) 2845. Count of Interesting Subarrays
+4) 2799. Count Complete Subarrays in an Array
 
 After Long Span:
