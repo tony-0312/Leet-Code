@@ -28,22 +28,13 @@ import java.util.List;
 
 class FindWords{
     static void findWords(String[] words, char x){
-        int count = 0;
         List<Integer> ans = new ArrayList<>();
-        for(String str : words){
-            for(int i = 0; i < str.length(); i++){
-                char ch = str.charAt(i);
-                if(ch == x){
-                    ans.add(count);
-                    break;
-                }
+        for (int i = 0; i < words.length; i++) {
+            if (words[i].indexOf(x) != -1) {
+                ans.add(i);
             }
-            count++;
-            System.out.println();
         }
-        for(Integer num : ans){
-            System.out.print(num + " ");
-        }
+        return ans;
     }
     public static void main(String[] args) {
         String[] words = {"abc","bcd","aaaa","cbc"};
