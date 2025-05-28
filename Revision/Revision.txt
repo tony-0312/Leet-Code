@@ -4,5 +4,6 @@ After Short Span :
 3) 2845. Count of Interesting Subarrays
 4) 2799. Count Complete Subarrays in an Array
 5) 3362. Zero Array Transformation III
+6) 3372. Maximize the Number of Target Nodes After Connecting Trees I
 
 After Long Span:
