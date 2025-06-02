@@ -5,5 +5,6 @@ After Short Span :
 4) 2799. Count Complete Subarrays in an Array
 5) 3362. Zero Array Transformation III
 6) 3372. Maximize the Number of Target Nodes After Connecting Trees I
+7) 909. Snakes and Ladder
 
 After Long Span:
