@@ -22,24 +22,6 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 class BestStock{
     public static void main(String[] args) {
         int[] prices = {7,1,5,3,6,4};
-        // int n = prices.length-1;
-        // int min = Integer.MAX_VALUE;
-        // int pos = 0;
-        // for (int i = 0; i < prices.length; i++) {
-        //     if(i!=n && prices[i] < min){
-        //         min = prices[i];
-        //         pos = i;
-        //     }
-        // }
-        // int max = Integer.MIN_VALUE;        
-        // for (int i = pos; i < prices.length; i++) {
-        //     if(prices[i] > max){
-        //         max = prices[i];
-        //     }
-        // }
-        // if(max == Integer.MIN_VALUE || min == Integer.MAX_VALUE) System.out.println(0);
-        // System.out.println(max-min);
-
         int ans = 0;
         int mi = prices[0];
         for(int v : prices){
