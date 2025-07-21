@@ -18,9 +18,6 @@ n == nums.length
 -109 <= nums[i] <= 109
 */
 
-import java.util.Map;
-import java.util.HashMap;
-
 class Majority{
 	
 	static int majorityElement(int[] nums){
